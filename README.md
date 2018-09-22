@@ -2,6 +2,10 @@
 
 > 2018.9.22-
 
+## List的架构图
+
+![List的架构图](https://images0.cnblogs.com/blog/497634/201309/08214705-fbbcdd2d785f40f5b773041801bd74f1.jpg)
+
 ## ArrayList
 
 * 继承关系：ArrayList -> AbstractList 实现 List接口
