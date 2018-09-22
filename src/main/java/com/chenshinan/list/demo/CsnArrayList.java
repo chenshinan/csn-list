@@ -8,6 +8,7 @@ import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
 /**
+ * 无法识别到parent.modCount的原因是：projected修饰的属性只能在同一个包下的才能访问
  * @author shinan.chen
  * @date 2018/9/22
  */
