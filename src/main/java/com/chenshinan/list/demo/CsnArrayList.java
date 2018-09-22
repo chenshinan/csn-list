@@ -3,6 +3,7 @@ package com.chenshinan.list.demo;
 import sun.misc.SharedSecrets;
 
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
