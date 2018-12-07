@@ -91,7 +91,7 @@ public static <T> int binarySearch(List<? extends Comparable<? super T>> list, T
 
 * `在同一个包里`的子类中实例化NewObject类获得对象，然后可用该对象访问`protected`修饰的方法或者属性
 
-## 总结⭐
+## 总结⭐️
 
 * 对于需要快速插入，删除元素，应该使用LinkedList。
 
@@ -100,3 +100,6 @@ public static <T> int binarySearch(List<? extends Comparable<? super T>> list, T
 * 对于“单线程环境” 或者 “多线程环境，但List仅仅只会被单个线程操作”，此时应该使用非同步的类(如ArrayList、LinkedList)。
 
 * 对于“多线程环境，且List可能同时被多个线程操作”，此时，应该使用同步的类(如Vector或`CopyOnWriteArrayList`)
+
+参考文献：
+- [Java 集合系列教程](http://www.cnblogs.com/skywang12345/p/3323085.html)
